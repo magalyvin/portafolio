@@ -1,0 +1,257 @@
+body{
+	background:black;
+}
+#nombre{
+	text-align: center;
+
+}
+
+#perfil{
+	margin-left: 150px;
+}
+#texto{
+	font-family: garamond;
+	font-size: 24px;
+	color: white;
+	width: 550px;
+	margin-left: 550px;
+	margin-top: -300px;
+}
+.imagen{
+	margin-left: 200px;
+	margin-top: 100px;
+	
+}
+.segunda{
+	margin-left: 600px;
+	margin-top: -250px;
+}
+
+.tercera{
+	margin-left: 950px;
+	margin-top: -230px;
+}
+
+.cuarta{
+	margin-left: 220px;
+	margin-top: 50px;
+	
+}
+.quinta{
+	margin-left: 600px;
+	margin-top: -335px;
+}
+
+.sexta{
+	margin-left: 950px;
+	margin-top: -270px;
+}
+#video1{
+	margin-top: 55px;
+	margin-left: 100px;
+}
+#video2{
+	margin-top: -208px;
+	margin-left: 500px;
+}
+#video3{
+	margin-top: -208px;
+	margin-left: 902px;
+}
+#video4{
+	margin-top: -3px;
+	margin-left: 250px;
+}
+#video5{
+	margin-left: 654px;
+	margin-top: -208px;
+}
+#texto1{
+	color:white;
+	font-family: garamond;
+	font-size: 36px;
+	text-align: center;
+}
+form{
+	width: 450px;
+	margin: auto;
+	padding: 10px 10px;
+}
+input,textarea{
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 5px;
+	box-sizing:border-box;
+}
+textarea{
+	min-height: 150px;
+	max-height: 250px;
+	max-width: 100%;
+
+}
+#boton{
+	background: rgba(0,0,50,0.5);
+	color: white;
+}
+#boton:hover{
+	cursor: pointer;
+}
+#dise{
+	margin-top: 150px;
+	margin-left: 50px;
+	width: 250px;
+}
+#face{
+	opacity: 0.3;
+	margin-left: 350px;
+	width: 50px;
+}
+#face:hover{
+	opacity: 1;
+}
+#twitter{
+	opacity: 0.3;
+	margin-top: -50px;
+	margin-left: 400px;
+	width: 50px;
+}
+#twitter:hover{
+	opacity: 1;
+}
+
+@media only screen and (max-width: 480px){
+	
+	#nombre{
+	text-align: center;
+
+}
+	#perfil{
+	margin-left: 120px;
+}
+	#texto{
+		margin-left: 40px;
+		margin-top: 100px;
+		font-family: garamond;
+		font-size: 24px;
+		color: white;
+		width: 350px;
+	
+}
+	#dise{
+		margin-top: 20px;
+		margin-left: -5px;
+	}
+	.imagen{
+		margin-left: 80px;
+		margin-top: 15px;
+
+	}
+	.segunda{
+		margin-left: 80px;
+		margin-top: 50px;
+	}
+	.tercera{
+		margin-left: 100px;
+		margin-top: 50px;
+	}
+	.cuarta{
+		margin-left: 100px;
+		margin-top: 50px;
+	}
+	.quinta{
+		margin-left: 100px;
+		margin-top: 50px;
+	}
+	.sexta{
+		margin-left: 100px;
+		margin-top: 50px;
+		}
+	#video1{
+		margin-left: 30px;
+		margin-top: 10px;
+	}
+	#video2{
+		margin-left: 30px;
+		margin-top: 50px;
+	}
+	#video3{
+		margin-left: 30px;
+		margin-top: 50px;
+	}
+	#video4{
+		margin-left: 30px;
+		margin-top: 50px;
+	}
+	#video5{
+		margin-left: 30px;
+		margin-top: 50px;
+	}
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	
+	#perfil{
+		margin-left: 20px;
+	}
+	#texto{
+		margin-left: 340px;
+		margin-top: -340px;
+		font-family: garamond;
+		font-size: 24px;
+		color: white;
+		width: 350px;
+	}
+	#dise{
+		margin-left: 10px;
+		margin-top: -5px;
+	}
+	.imagen{
+		margin-left: 45px;
+	}
+	.segunda{
+		margin-left: 385px;
+	}
+	.tercera{
+		margin-left: 75px;
+		margin-top: 42px;
+	}
+	.cuarta{
+		margin-left: 395px;
+		margin-top: -305px;
+	}
+	.quinta{
+		margin-left: 75px;
+		margin-top: 25px;
+	}
+	.sexta{
+		margin-left: 410px;
+		margin-top: -265px;
+	}
+	#video1{
+		margin-left: 155px;
+	}
+	#video2{
+		margin-left: 155px;
+		margin-top: -10px;
+	}
+	#video3{
+		margin-left: 155px;
+		margin-top: -10px;
+	}
+	#video4{
+		margin-left: 155px;
+		margin-top: -10px;
+	}
+	#video5{
+		margin-left: 155px;
+		margin-top: -10px;
+	}
+
+}
+
+
+}
+
+
+
+
+
